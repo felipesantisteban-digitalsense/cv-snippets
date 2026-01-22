@@ -1,4 +1,67 @@
-__pycache__
+# =========================
+# macOS
+# =========================
 .DS_Store
-.log
-.venv
+.AppleDouble
+.LSOverride
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# =========================
+# uv
+# =========================
+uv.lock
+.python-version
+
+# =========================
+# Jupyter / Notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb~
+
+# =========================
+# Logs / caches
+# =========================
+*.log
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# =========================
+# Data / artifacts (CV)
+# =========================
+data/
+datasets/
+videos/
+images/
+runs/
+outputs/
+
+# Ultralytics / YOLO
+runs/
+*.pt
+*.onnx
+
+# =========================
+# Editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS / temp
+# =========================
+tmp/
+temp/
