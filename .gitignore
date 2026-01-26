@@ -44,8 +44,6 @@ uv.lock
 # =========================
 data/
 datasets/
-videos/
-images/
 runs/
 outputs/
 
